@@ -26,7 +26,7 @@ Steps:
   ```docker exec -it mysql5.7.44 bash```</br>
 
 6. enter mysql shell and create your database</br>
-  ```mysql -u root -pwelcome@123```</br>
+  ```mysql -u root -p```</br>
   ```CREATE DATABASE mydatabase;```</br>
   ```exit```</br>
 
@@ -41,4 +41,3 @@ Steps:
 Disclaimer:
 - Tested with mac m1
 - This uses port 3307 on host to avoid any local installation of mysql
-- 
